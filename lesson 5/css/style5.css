@@ -1,0 +1,90 @@
+.wrapper {
+	height: 500px;
+	width: 500px;
+	font-size: 30px;
+	flex-direction: row;
+	display: flex;
+	align-items: stretch;
+	
+
+}
+
+.sq1 {
+	background-color: green;
+	height: 100px;
+	width: 150px;
+	color: #b042f4;
+	
+	margin: 5px;
+}
+
+.sq2 {
+	background-color: yellow;
+	height: 150px;
+	width: 80px;
+	color: #e02a76;
+	align-self: baseline;
+	margin: 5px;
+
+}
+
+.sq3 {
+	background-color: blue;
+	height: 190px;
+	width: 170px;
+	color: #302529;
+	align-self: center;
+	margin: 5px;
+
+}
+
+.sq4 {
+	background-color: grey;
+	height: 200px;
+	width: 140px;
+	color: #1f5259;
+	align-self: stretch; 
+	margin: 5px;
+
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+}
+
+.d1, .d2, .d3, .d4, .d5, .d6, .d7, .d9 {
+	width: 100px;
+	height: 100px;
+	flex-grow: 1;
+}
+
+.d1{
+   background-color: green;
+  }
+  .d2{
+   background-color: yellow;
+  }
+  .d3{
+   background-color: red;
+   flex-grow: 3;
+  }
+  .d4{
+   background-color: blue;
+  }
+  .d5{
+   background-color: orange;
+  }
+  .d6{
+   background-color: black;
+  }
+  .d7{
+   background-color: pink;
+  }
+  .d8{
+   background-color: aqua;
+   flex-shrink: 1;
+  }
+  .d9{
+   background-color: coral;
+  }
