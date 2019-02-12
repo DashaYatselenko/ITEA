@@ -1,11 +1,11 @@
 body {
 	font-family: 'KoHo', sans-serif;
 }
-.banner {
-	background-image: url(../img/banner.jpg);
-	height: 520px;
-	background-size: cover;
+.gray-color {
+	background-color: #ececec;
 }
+
+/* NAVBAR */
 .navbar {
     justify-content: space-between!important;
 }
@@ -19,17 +19,24 @@ body {
 	background: linear-gradient(to bottom, #37b3f8 0%,#1f84e7 100%);
 	border-radius: 5px;
 } 
-
 .nav-item {
 	margin-left: 20px;
 }
+/* END NAVBAR */
 
+/* BANNER */
+.banner {
+	background-image: url(../img/banner.jpg);
+	height: 535px;
+	background-size: cover;
+}
 .banner .text-1 {
-	font-size: 52px;
+	font-size: 47px;
+	letter-spacing: 0.15em;
 	color: #ffffff;
 	text-transform: uppercase;
 	text-align: center;
-	padding-top: 160px;
+	padding-top: 130px;
 }
 .banner .action {
 	text-align: center;
@@ -40,6 +47,58 @@ body {
     background-clip: padding-box;
     text-shadow: 0px 1px 0px #000000;
     font-weight: bold;
-    font-size: 34px;
+    font-size: 30px;
     margin-top: 34px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/* END BANNER */
+
+.block-cities {
+	background-color: #ffffff;
+	width: 490px;
+	height: 253px;
+	border-bottom: 7px solid #51c03d;
+	border-radius: 5px;
+	margin: 0 auto 0;
+	position: relative;
+	top:-97px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.block-cities ul {
+	
+	
+}
+.block-cities li {
+	list-style: none;
+	display: inline-block;
+}
+
+a {
+	color: gray;
+	text-align: center;
+}
+
+.block-cities h3 {
+	font-family: SegoeWP Light;
+	color: gray;
+	text-align: center;
+	padding-top: 17px;
+	padding-left: 15px;
+}
+
+.block-cities  a img {
+	width: 77px;
+	height: 47px;
+}
+
+.carousel-item img {
+	width: 800px;
+	height: 500px;
+	border-radius: 5px;
+	border-top: 5px solid #380B61;
+	border-bottom: 5px solid #380B61; 
 }
