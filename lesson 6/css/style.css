@@ -1,47 +1,11 @@
-.div {
-	top: 30px;
-	left: 30px;
-	border: 1px solid black;
-	
-
-	background-color: white;
-
-
+.checklist {
+	border: 2px solid #D8D8D8;
+	width: 152px;
+	margin-top: 15px;
 }
 
-
-}
-
-.red {
-	z-index: 3;
-	border: 1px solid black;
-	width: 150px;
-	height: 150px;
-	position: absolute;
-	margin: 15px;
-	background-color: red;
-
-}
-
-
-
-.yellow {
-	
-	border: 1px solid black;
-	width: 150px;
-	height: 150px;
+.question {
+	border: 2px solid #BF00FF;
+	width: 200px;
 	position: relative;
-	margin: 15px;
-	background-color: yellow;
-	position: relative;
-
-}
-
-.green {
-	border: 1px solid black;
-	width: 150px;
-	height: 150px;
-	
-	margin: 15px;
-	background-color: green;
-	position: relative;
+	margin-top:10px;

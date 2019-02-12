@@ -4,13 +4,31 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 	</head>
 	<body>
-		<div class="div">
-			<div class="green">
+		<form>
+			<label for="first_name">Name</label><br>
+			<input id="first_name" type="text"><br>
+			<label for="last_name">Last Name</label><br>
+			<input id="last_name" type="text"><br>
+			<label for="first_name">Phone Number</label><br>
+			<input id="first_name" type="tel"><br>
+  			<div class="checklist">
+				<select>
+				<option><b>Choose type of vehicle</b></option>
+				</select><br>
+				<input type="checkbox" name="vehicle1" value="Plane">Plane<br>
+				<input type="checkbox" name="vehicle2" value="Sheep">Sheep<br>
+				<input type="checkbox" name="vehicle3" value="Car">Car<br>
 			</div>
-			<div class="red">
-			</div>
-			<div class="yellow">
-			</div>
+
+				<div class="question">
+					<p>Select what would you like on lunch?</p>
+					<p><input type="radio" name="answer" value="a1">Fruits<br>
+					<input type="radio" name="answer" value="a2">Potato with beef<br>
+					<input type="radio" name="answer" value="a3">Ice cream</p>
+				</div>
+
+			<p><input type="submit" value="Send">
+		</form>
 
 			
 		</div>
