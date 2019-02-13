@@ -102,3 +102,20 @@ a {
 	border-top: 5px solid #380B61;
 	border-bottom: 5px solid #380B61; 
 }
+.icons_footer {
+	width: 100px;
+	height: 200px;
+	position: relative;
+	margin-top: 20px;
+}
+
+.icons_footer  li {
+	background-color: #ffffff;
+	border-radius: 70%;
+	border-width: 30%;
+	list-style: none;
+	text-align: center;
+	display: inline-block;
+	padding: 20px 20px;
+	padding-top: 30px;
+}
