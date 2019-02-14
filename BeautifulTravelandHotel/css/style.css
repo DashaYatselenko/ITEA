@@ -78,13 +78,15 @@ body {
 }
 
 a {
-	color: gray;
-	text-align: center;
+	color: #9b9a9a;
+	text-align: left;
+	font-size: 14px;
+
 }
 
 .block-cities h3 {
 	font-family: SegoeWP Light;
-	color: gray;
+	color: #9b9a9a;
 	text-align: center;
 	padding-top: 17px;
 	padding-left: 15px;
@@ -102,20 +104,43 @@ a {
 	border-top: 5px solid #380B61;
 	border-bottom: 5px solid #380B61; 
 }
-.icons_footer {
-	width: 100px;
-	height: 200px;
-	position: relative;
-	margin-top: 20px;
-}
 
-.icons_footer  li {
+.text_under_carousel {
+	font-size: 26px;
+	color: #9b9a9a;
+	padding-top: 47px;
+	text-align: center;
+}
+.icons_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px 150px 0;
+    padding-bottom: 75px;
+}
+.icons_footer .icon_with_text {
+    text-align: center;
+}
+.icons_footer .icon_with_text span {
+	font-size: 20px;
+	padding-top: 20px;
+	color: #9b9a9a;
+
+}
+.icons_footer .circle {
 	background-color: #ffffff;
 	border-radius: 70%;
-	border-width: 30%;
-	list-style: none;
+	border-width: 20px;
 	text-align: center;
-	display: inline-block;
-	padding: 20px 20px;
-	padding-top: 30px;
+	padding: 17px 0 0;
+	width: 133px;
+	height: 133px;
+}
+
+.footer-text .text {
+	background-color: #414141;
+	font-size: 14px;
+	color: #ffffff;
+	height: 20px;
+	text-align: center;
 }
